@@ -19,7 +19,7 @@ authors:
     gravatar: 35be3d2ebffa6d9ee03e64328e6988eb
     email: info.askpio@gmail.com
     web: https://blog.askpio.com
-    twitter: https://twitter.com/
+    twitter: https://twitter.com/AskPio
     description: "Askpio Description"
   john:
     name: askPio Team  
@@ -27,7 +27,7 @@ authors:
     gravatar: 35be3d2ebffa6d9ee03e64328e6988eb
     email: info.askpio@gmail.com
     web: https://blog.askpio.com
-    twitter: https://twitter.com/Subwai1
+    twitter: https://twitter.com/AskPio
     description: "This is the author box."
   rinkal:
     name: askPio Team  
@@ -35,7 +35,7 @@ authors:
     gravatar: 35be3d2ebffa6d9ee03e64328e6988eb
     email: info.askpio@gmail.com
     web: https://blog.askpio.com
-    twitter: https://twitter.com/Subwai1
+    twitter: https://twitter.com/AskPio
     description: "R&D department of Askpio.com"
 
 # Plugins
