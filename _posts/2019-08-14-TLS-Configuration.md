@@ -30,8 +30,6 @@ We must configure the right TLS on azure web app and on our security service (in
 }
 ```
 
-![walking]({{ site.baseurl }}/assets/images/08142019/image1.png)
-
 In order to resolve this issue, you must follow the below steps. 
 
 Step 1: Check your system’s internet options on your local system. 
