@@ -34,6 +34,9 @@ If you want to get really fancy, you can even add syntax highlighting using Roug
 
 ![walking]({{ site.baseurl }}/assets/images/8.jpg)
 
+{{ site.baseurl }}/assets/images/14.jpg
+
+
 ## Reference lists
 
 The quick brown jumped over the lazy.
