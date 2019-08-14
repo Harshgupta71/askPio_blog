@@ -8,13 +8,12 @@ image: assets/images/08142019/image1.png
 
 Today, we are going to discuss and see how to configure the TLS and resolve errors related to this. There are different versions of TLS. 
 
-| Protocol   |     Published     | 
-|----------|:-------------:|
+| Protocol | Published | 
+|---------|--------|
 | TLS 1.0 | 1999 | 
 | TLS 1.1 | 2006 |  
 | TLS 1.2 | 2008 |
 | TLS 1.3 | 2018 |
-
 
 First, you should know what TLS is, for this, you can refer the below two URLs.
 
