@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to configure the TLS and resolve errors related to this on Azure webApp!"
-author: sal
+author: harsh
 categories: [ ]
 image: assets/images/08142019/image1.png
 ---
