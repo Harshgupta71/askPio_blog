@@ -7,6 +7,13 @@ image:
 ---
 
 Today, we are going to discuss and see how to configure the TLS and resolve errors related to this. There are different versions of TLS. 
+
+| Protocol   |     Published     | 
+|----------|:-------------:|
+| TLS 1.0 | 1999 | 
+| TLS 1.1 | 2006 |  
+| TLS 1.2 | 2008 |
+
 Protocol	Published
 TLS 1.0	1999
 TLS 1.1	2006
