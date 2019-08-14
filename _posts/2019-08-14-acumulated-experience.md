@@ -2,7 +2,7 @@
 layout: post
 title:  "askPio (connected, protected and integrated)"
 author: rinkal
-categories: 
+categories: [ ]
 image: assets/images/15.jpg
 ---
 AskPio is one stop solution for all your problems whether it pertains to remembering numerous and complex passwords or need of secured passwords. It not only offers you connections with your friends and mates but also help you in acknowledging the required changes with the help of a centralized system.
