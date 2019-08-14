@@ -22,8 +22,29 @@ We must configure the right TLS on azure web app and on our security service (in
 
 ```
 .my-link {
-    This might be because the site uses outdated or unsafe TLS security settings. If this keeps happening, try contacting the website’s owner.;
+    This might be because the site uses outdated or unsafe TLS security settings. 
+    If this keeps happening, try contacting the website’s owner.;
 }
 ```
 
 ![walking]({{ site.baseurl }}/assets/images/08142019/image1.png)
+
+In order to resolve this issue, you must follow the below steps. 
+
+Step 1: Check your system’s internet options on your local system. 
+
+![walking]({{ site.baseurl }}/assets/images/08142019/image2.png)
+
+Step 2: if still facing the same issue then check TLS settings on the azure web app. 
+
+![walking]({{ site.baseurl }}/assets/images/08142019/image3.png)
+
+Step 3: Check TLS settings on your middle-security service (In my case I am using Cloudflare). It should match with Azure TLS or lower version. 
+
+![walking]({{ site.baseurl }}/assets/images/08142019/image4.png)
+
+Refresh your browser and your app is running properly. 
+
+![walking]({{ site.baseurl }}/assets/images/08142019/image5.png)
+
+>Keep enjoying the secure app!
