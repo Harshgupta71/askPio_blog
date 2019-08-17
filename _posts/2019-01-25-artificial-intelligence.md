@@ -4,8 +4,6 @@ title:  "Artificial Intelligence"
 author: rinkal
 categories: [ ]
 image: https://content.askpio.com/Images/blog/AI_01252019.jpg
-featured: true
-hidden: true
 ---
 
 In this era where information is required at a galloping speed, where everyone requires easy and quick access to information; Artificial intelligence comes to play.
