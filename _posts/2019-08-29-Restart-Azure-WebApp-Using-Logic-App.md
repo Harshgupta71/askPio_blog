@@ -39,7 +39,52 @@ First, we need to add the HTTP action in-order to generate and get the access to
 ```
 ![CodeView]({{ site.baseurl }}/assets/images/08292019/img2.png)
 
-After execution, we will get a JSON result which will have a access_token value which is required to restart the app. 
+After execution, we will get a JSON result which will have a access_token value which is required to restart the app.
+
 JSON result looks like as below 
 
 ![CodeView]({{ site.baseurl }}/assets/images/08292019/img3.png)
+
+### Step 2: 
+Parse the JSON and get the body and define the schema using Use sample payload to generate the schema. 
+
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img4.png)
+
+### Step 3: 
+Restart App (HTTP)
+
+For this HTTP request, we need a subscription id, resource group and app name of azure web app. We need to pass the access_token from previous step in the Authorization field. 
+
+```
+"method": "POST"
+"uri": "https://management.azure.com/subscriptions/{subscription_id}/resourceGroups/{resource_group}/providers/Microsoft.Web/sites/{webApp_name}/restart?api-version=2016-08-01"
+"Authorization": "Bearer @{body('Parse_JSON')?['access_token']}",
+"Content-Type": "application/json"
+}
+```
+
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img5.png)
+
+### Run Logic App:
+Your logic app is ready and now run this and see results in history.
+
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img6.png)
+
+### The activity log of web app: 
+Check the webApp activity log. You might need to wait for 1-2 mins in-order to update this. 
+
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img7.png)
+
+### Expected Result: 
+The Logic app has configured properly and worked as per expected. It is restarting the azure web app, we can configure this on-demand and set it scheduled. For on-demand, we can use email receiving event and restart it on receiving an email with a specific subject line. This is as given below.  
+
+### Automate the Logic app on email receiving: 
+To make this process automate, we can configure the above logic app on receiving an email with some defined text in the subject. Now whenever you will receive an email with defined subject then logic app will run automatically. 
+
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img8.png)
+
+### Summary: 
+In the above article, we see how to restart the azure web app using the logic app. We also see use email receiving an event to restart the app. Apart from the restart, we can perform many more operations like stop, start etc. For more trigger API's refer the below URL and configure those in the above logic app accordingly.  
+
+https://docs.microsoft.com/en-us/rest/api/appservice/webapps/stop
+
