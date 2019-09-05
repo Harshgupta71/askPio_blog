@@ -4,6 +4,7 @@ title:  "Restart Azure Web App Using Azure Logic App"
 author: harsh
 categories: [ ]
 image: assets/images/08292019/img8.png
+featured: true
 ---
 
 ### Introduction: 
