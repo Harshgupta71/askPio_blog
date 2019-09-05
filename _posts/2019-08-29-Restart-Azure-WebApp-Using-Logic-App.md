@@ -24,3 +24,16 @@ For Creating Logic App which will restart the Azure web app, you must need the f
 Restart Azure web app using Azure logic app will have three simple steps as shown below. 
 
 ![walking]({{ site.baseurl }}/assets/images/08292019/img1.png)
+
+We will discuss all these steps in detail in the following section. 
+
+### Start Designing of the Azure Logic App: 
+### Step 1: Get Access Token (HTTP)
+First, we need to add the HTTP action in-order to generate and get the access token. This action is having a post method and required tenant_id, client_id, client_secret. 
+```
+"method": "POST"
+"uri": "https://login.microsoftonline.com/{tenant_id}/oauth2/token"
+"body": "grant_type=client_credentials&client_id={client_id} &client_secret{client_secret}&resource=https://management.core.windows.net/"
+"Content-Type": "application/x-www-form-urlencoded"
+}
+```
