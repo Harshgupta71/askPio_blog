@@ -23,7 +23,7 @@ For Creating Logic App which will restart the Azure web app, you must need the f
 ### Steps: 
 Restart Azure web app using Azure logic app will have three simple steps as shown below. 
 
-![walking]({{ site.baseurl }}/assets/images/08292019/img1.png)
+![LogicApp]({{ site.baseurl }}/assets/images/08292019/img1.png)
 
 We will discuss all these steps in detail in the following section. 
 
@@ -37,3 +37,9 @@ First, we need to add the HTTP action in-order to generate and get the access to
 "Content-Type": "application/x-www-form-urlencoded"
 }
 ```
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img2.png)
+
+After execution, we will get a JSON result which will have a access_token value which is required to restart the app. 
+JSON result looks like as below 
+
+![CodeView]({{ site.baseurl }}/assets/images/08292019/img3.png)
