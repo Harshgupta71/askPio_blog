@@ -8,7 +8,8 @@ image: assets/images/08292019/img8.png
 
 ### Introduction: 
 In this article, we are going to see how to restart the Azure web app using Azure Logic App. I am considering that you know about the azure logic app. If you want to read more about, what is Azure logic app? How does it work? Then refer the below article. 
-  https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview
+
+https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview
 
 ### Prerequisite:
 For Creating Logic App which will restart the Azure web app, you must need the following items and access. 
