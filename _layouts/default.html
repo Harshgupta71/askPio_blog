@@ -80,22 +80,23 @@
                 <li class="nav-item">
               	  <a class="nav-link" href="{{ site.mainurl }}/Home">Home</a>
                 </li>
-
-		<li class="nav-item">
-              	  <a class="nav-link" href="{{ site.mainurl }}/about">About us</a>
-                </li>
-		    
-		<li class="nav-item">
-              	  <a class="nav-link" target="_blank" href="{{ site.appmainurl }}/account/select-edition">Price</a>
-                </li>
-		    
-                {% if page.url == "/" %}
+ 		
+		{% if page.url == "/" %}
                 <li class="nav-item active">
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
                 <a class="nav-link" href="{{ site.baseurl }}/">Blog</a>
                 </li>
+		
+		<li class="nav-item">
+              	  <a class="nav-link" target="_blank" href="{{ site.appmainurl }}/account/select-edition">Price</a>
+                </li>
+		    
+		 <li class="nav-item">
+              	  <a class="nav-link" href="{{ site.mainurl }}/Faq">F.A.Q</a>
+                </li>
+               
 		    
                 <!-- <li class="nav-item">
                 <a class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip"><i class="fas fa-download"></i> Download</a>
