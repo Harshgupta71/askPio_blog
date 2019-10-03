@@ -62,3 +62,22 @@ After trigger configuration, now its time to set HTTP action with post method an
   },
 ```
 ![CodeView]({{ site.baseurl }}/assets/images/10012019/image6.png)
+
+Note: we can get the basic authentication from publish profile of an application where we have deployed the WebJob.
+
+### Step 6: 
+Run the Logic App and check the status under run history. 
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image7.png)
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image8.png)
+
+Note: 
+You can download the code, copy and paste it in code view. Change your credentials and URI according to your WebJob; your Recurrence type Logic App is ready.
+
+### Expected Results: 
+The Logic App has configured correctly, and it is working as expected. It is running the Azure WebJob as per the set frequency. If there is an error in the WebJob then your run will be failed, and you can see it under Runs History. 
+
+### Summary: 
+In the above article, we have learned how to schedule the WebJobs using Azure Logic Apps. In the reference of the article [given above](https://docs.microsoft.com/en-us/azure/scheduler/migrate-from-scheduler-to-logic-apps), we noticed that the Azure Scheduler is scheduled to retire fully on December 31, 2019, and All Scheduler job collections and jobs will stop running and they will be deleted from the system simultaneously. So, before that, we need to shift Azure Scheduler jobs to Azure Logic Apps. 
+
