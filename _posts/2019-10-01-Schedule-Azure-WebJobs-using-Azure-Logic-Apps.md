@@ -25,4 +25,40 @@ WebJobs is a feature of [Azure App Service](https://docs.microsoft.com/azure/app
 
 ### Now, we will see step by step, how to schedule Azure WebJobs using Azure Logic Apps.
 
-Step1: Create and deploy an on-demand (triggered) job under Azure App Service. [Click here](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create) to learn how to create and deploy a WebJob. 
+### Step1: 
+Create and deploy an on-demand (triggered) job under Azure App Service. [Click here](https://docs.microsoft.com/en-us/azure/app-service/webjobs-create) to learn how to create and deploy a WebJob. 
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image1.png)
+
+### Step 2: 
+Create a blank Logic App. 
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image2.png)
+
+### Step 3: 
+Edit the logic app and select a Recurrence type of Schedule trigger. 
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image3.png)
+
+### Step 4: 
+Set the interval, as per your requirement. Also, you can set other parameters like Time Zone and Start Time as shown in the below image. In my case, I am going to set 1 minute without any extra parameter. 
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image4.png)
+
+### Step 5: 
+After trigger configuration, now its time to set HTTP action with post method and basic authentication. 
+
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image5.png)
+
+```
+"inputs": {
+   "authentication": {
+   	"password": "password",
+       "type": "Basic",
+       "username": "$username"
+        },
+    "method": "POST",
+    "uri": https://appname-webjob.scm.azurewebsites.net/api/webjobtype/webjobname/run
+  },
+```
+![CodeView]({{ site.baseurl }}/assets/images/10012019/image6.png)
