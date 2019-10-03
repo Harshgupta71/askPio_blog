@@ -1,8 +1,19 @@
 ---
 layout: post
-title:  "Restart Azure Web App Using Azure Logic App"
+title:  "Schedule Azure WebJobs using Azure Logic Apps"
 author: harsh
 categories: [ ]
-image: assets/images/08292019/img8.png
+image: assets/images/10012019/image8.png
 featured: true
 ---
+
+### Introduction: 
+In this article, we will see how to migrate Azure WebJobs from Azure Scheduler to Azure Logic Apps. As we all know that Azure Scheduler will become obsolete on 31st December 2019, after which all Scheduler job collections and jobs will stop running and they will be deleted from the system. In order to continue to use jobs, we must move Azure Schedulers to Azure Logic Apps as soon as possible. Azure Logic Apps have numerous features which are as below:-
+
+1.  Uses a visual designer and connectors to integrate with more than 200 different services, including Azure Blob storage, Azure Service Bus, Microsoft Outlook, and SAP. 
+2.	Manages each scheduled workload as a first-class Azure resource. 
+3.	Runs multiple one-time jobs using a single logic app. 
+4.	Sets schedules that automatically adjust to daylight saving time.
+5.	For more details about its features and usage please refer to the below article.
+
+[Migrate Azure Scheduler jobs to Azure Logic Apps]: https://docs.microsoft.com/en-us/azure/scheduler/migrate-from-scheduler-to-logic-apps
