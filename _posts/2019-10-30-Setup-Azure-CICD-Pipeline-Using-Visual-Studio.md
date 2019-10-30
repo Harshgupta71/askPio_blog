@@ -8,7 +8,8 @@ featured: false
 ---
 
 ### Introduction: 
-We are going to see how to configure Azure DevOps CI/CD and setup Azure Pipeline using visual studio. 
+Today, we are going to see how to configure Azure DevOps CI/CD and setup Azure Pipeline using visual studio. 
+
 Not spending the time on what is Azure DevOps and its feature, we are directly moving to CI/CD. How can we configure this using visual studio? We will see this step by step. Once we set up the Azure Pipeline then on each check-in it will build the application and deploy the changes on App Service. 
 
 In this article, we will see how to configure the CI/CD for a single project in one solution. In the next article, we will see how to configure the CI/CD for multiple projects in one solution. 
@@ -30,3 +31,9 @@ Create a new project by using the Azure DevOps account. I am using Team Foundati
 
 ![Create Project on Azure DevOps]({{ site.baseurl }}/assets/images/10162019/image1.png)
 Create Project on Azure DevOps
+
+### Step 2:
+Configure the newly created project in Visual studio source control on your local system. 
+
+![Configure Source Control]({{ site.baseurl }}/assets/images/10162019/image2.png)
+Configure Source Control
