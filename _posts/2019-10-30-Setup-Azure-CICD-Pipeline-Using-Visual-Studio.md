@@ -24,3 +24,9 @@ For configuring the Azure DevOps CI/CD, you need the following tools.
 
 ### Steps:
 We will see how to configure CI/CD and setup Azure Pipeline using Azure DevOps. 
+
+### Step 1:
+Create a new project by using the Azure DevOps account. I am using Team Foundation version control, but you can use Git too.
+
+![Create Project on Azure DevOps]({{ site.baseurl }}/assets/images/10162019/image1.png)
+Create Project on Azure DevOps
