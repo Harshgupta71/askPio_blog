@@ -49,3 +49,16 @@ Creating Project and Solution
 
 ![Added project in Solution control ]({{ site.baseurl }}/assets/images/10162019/image5.png)
 Added project in Solution control 
+
+### Step 4:
+Setup Azure Pipelines under the publish settings of your solution. 
+
+![Setup Azure Pipeline]({{ site.baseurl }}/assets/images/10162019/image6.png)
+Setup Azure Pipeline
+
+### Step 5:
+Wait for a few mins and then go the pipelines under Azure DevOps. You will see a new Pipeline created and the build of the project has started. 
+
+![DevOps Pipeline Created]({{ site.baseurl }}/assets/images/10162019/image7.png)
+DevOps Pipeline Created
+
