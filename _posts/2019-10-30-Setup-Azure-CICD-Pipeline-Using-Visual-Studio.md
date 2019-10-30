@@ -80,3 +80,14 @@ As the build succeed the new release would be created and started pushing the re
 ![Release the changes]({{ site.baseurl }}/assets/images/10162019/image10.png)
 Release the changes
 
+### Step 9:
+Check the App by using URL and you will see the application has deployed. 
+
+![App Service URL after First Release]({{ site.baseurl }}/assets/images/10162019/image11.png)
+App Service URL after First Release
+
+### Step 10:
+Change anything in the application, check-in the changes and see Azure DevOps will build the solution and release the changes.
+
+![Heading Change]({{ site.baseurl }}/assets/images/10162019/image12.png)
+Heading Change
