@@ -62,3 +62,21 @@ Wait for a few mins and then go the pipelines under Azure DevOps. You will see a
 ![DevOps Pipeline Created]({{ site.baseurl }}/assets/images/10162019/image7.png)
 DevOps Pipeline Created
 
+### Step 6:
+Check the Deployment Center on the Azure portal for your App Service, for which you have set up the Azure Pipeline in step 4.
+
+![Azure App Deployment Center]({{ site.baseurl }}/assets/images/10162019/image8.png)
+Azure App Deployment Center
+
+### Step 7:
+If there is no error in the build, then after some time your build has succeeded. It is taking a few mins. In my example, it takes up to 1min 21 sec. 
+
+![Build Succeeded]({{ site.baseurl }}/assets/images/10162019/image9.png)
+Build Succeeded
+
+### Step 8:
+As the build succeed the new release would be created and started pushing the release changes on App service. 
+
+![Release the changes]({{ site.baseurl }}/assets/images/10162019/image10.png)
+Release the changes
+
