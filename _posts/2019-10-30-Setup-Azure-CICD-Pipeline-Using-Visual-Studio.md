@@ -37,3 +37,15 @@ Configure the newly created project in Visual studio source control on your loca
 
 ![Configure Source Control]({{ site.baseurl }}/assets/images/10162019/image2.png)
 Configure Source Control
+
+### Step 3:
+Create a new project with a solution in Visual Studio and add this in DevOps Source Control then check-in the changes. 
+
+![Create a New Project with Solution]({{ site.baseurl }}/assets/images/10162019/image3.png)
+Create a New Project with Solution
+
+![Creating Project and Solution]({{ site.baseurl }}/assets/images/10162019/image4.png)
+Creating Project and Solution
+
+![Added project in Solution control ]({{ site.baseurl }}/assets/images/10162019/image5.png)
+Added project in Solution control 
