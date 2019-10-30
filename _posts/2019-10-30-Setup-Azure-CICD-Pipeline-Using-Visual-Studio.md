@@ -91,3 +91,20 @@ Change anything in the application, check-in the changes and see Azure DevOps wi
 
 ![Heading Change]({{ site.baseurl }}/assets/images/10162019/image12.png)
 Heading Change
+
+![Build has started]({{ site.baseurl }}/assets/images/10162019/image13.png)
+Build has started
+
+![After build completed the Release as created]({{ site.baseurl }}/assets/images/10162019/image14.png)
+After build completed the Release as created
+
+![Changes are deployed ]({{ site.baseurl }}/assets/images/10162019/image15.png)
+Changes are deployed 
+
+### Note: 
+We can see all Releases under Deployment Center on Azure Portal. 
+
+![Azure App Deployment Center]({{ site.baseurl }}/assets/images/10162019/image16.png)
+Azure App Deployment Center
+
+In the next article, we will see how to configure the CI/CD for multiple projects in one solution. 
