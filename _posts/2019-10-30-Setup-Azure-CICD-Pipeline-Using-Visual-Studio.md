@@ -15,3 +15,12 @@ In this article, we will see how to configure the CI/CD for a single project in 
 To know about Azure DevOps and its other features, you can refer to the below blog. 
 
 [Introducing Azure DevOps](https://azure.microsoft.com/en-in/blog/introducing-azure-devops)
+
+### Prerequisite:
+For configuring the Azure DevOps CI/CD, you need the following tools. 
+1.	Azure DevOps Account 
+2.	Azure Portal Account
+3.	Visual Studio 2012+(in my example I am using VS 2019) 
+
+### Steps:
+We will see how to configure CI/CD and setup Azure Pipeline using Azure DevOps. 
