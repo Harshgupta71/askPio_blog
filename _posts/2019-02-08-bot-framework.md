@@ -4,8 +4,7 @@ title:  "Bot Framework"
 author: rinkal
 categories: [ ]
 image: https://content.askpio.com/Images/blog/BF_02082019.jpg
-featured: true
-hidden: false
+featured: false
 ---
 
 Bored of doing repetitive and tiresome tasks, want to fix an appointment, need a quick and direct link to your connections (social media, organizational contacts etc.), urgent requirement of fixing schedules or setting reminders – Give your digital assistant a chance to do these tasks for you. Logging into an application would not restrain you and would seem effortless if such time and energy consuming tasks are being done for you by our personalized digital assistants. 
