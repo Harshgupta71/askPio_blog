@@ -17,7 +17,7 @@ Time doesn’t stop for anyone. The one who matches himself with time has no reg
 An organization comprises of various functional units or departments. The significance of pursuing work by harmonizing all functional units together can’t be overlooked. The information from one department can be the means to achieve a goal for other departments. Synchronizing inter-department and intra-department activities with time becomes an important tool to meet the deadlines of the work area. The dependency disallows anyone to neglect the vitality of time, wherein doing so can make the innocent bear heavy price.
 
 ![Time to Improve]({{ site.baseurl }}/assets/images/11052019/Image4.png)
-Time to Improve
+<!-- Time to Improve -->
 
 #### Scheduling tasks:
 Scheduling the tasks before starting your day can be another powerful tool to reach the extra mile at the same time. It is necessary to plan your work for the next day ahead of time, which creates your short-term goals for that day. One can make use of time schedule software to avoid unnecessary wastage of time at one task.
@@ -26,7 +26,7 @@ Scheduling the tasks before starting your day can be another powerful tool to re
 It is difficult to handle various tasks with the same level of efficiency. Assigning priorities to your tasks can be fruitful in time-based management of various tasks. 
 
 ![Think Plan Act]({{ site.baseurl }}/assets/images/11052019/image2.png)
-Think Plan Act
+<!-- Think Plan Act -->
 
 #### Effective Communication:
 Meetings and discussions are an integral part of an organization.
@@ -44,7 +44,7 @@ Avoiding procrastination, distractions and generating meaningful interpretations
 An employee should not only value his time, but he should understand that time is precious for other members also. He can raise the standards of professionalism in the company by carrying out meaningful and result-oriented tasks.
 
 ![Benefits]({{ site.baseurl }}/assets/images/11052019/image3.png)
-Benefits
+<!-- Benefits -->
 
 #### By inculcating the above factors while managing time in the organization, one can witness the following benefits: -
 
