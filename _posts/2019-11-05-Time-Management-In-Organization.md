@@ -16,7 +16,7 @@ Time doesn’t stop for anyone. The one who matches himself with time has no reg
 #### Maintaining workflow:
 An organization comprises of various functional units or departments. The significance of pursuing work by harmonizing all functional units together can’t be overlooked. The information from one department can be the means to achieve a goal for other departments. Synchronizing inter-department and intra-department activities with time becomes an important tool to meet the deadlines of the work area. The dependency disallows anyone to neglect the vitality of time, wherein doing so can make the innocent bear heavy price.
 
-![Time to Improve]({{ site.baseurl }}/assets/images/11052019/image1.png)
+![Time to Improve]({{ site.baseurl }}/assets/images/11052019/image4.png)
 Time to Improve
 
 #### Scheduling tasks:
