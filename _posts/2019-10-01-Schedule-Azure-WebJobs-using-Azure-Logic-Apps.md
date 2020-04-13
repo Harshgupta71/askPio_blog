@@ -3,7 +3,7 @@ layout: post
 title:  "Schedule Azure WebJobs using Azure Logic Apps"
 author: harsh
 categories: [ ]
-image: assets/images/10012019/image8.png
+image: assets/images/10012019/webjob.png
 featured: false
 ---
 

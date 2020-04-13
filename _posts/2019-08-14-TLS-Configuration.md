@@ -3,7 +3,7 @@ layout: post
 title:  "How to configure the TLS and resolve errors related to this on Azure webApp!"
 author: harsh
 categories: [ ]
-image: assets/images/08142019/image1.png
+image: assets/images/08142019/TLS0.png
 ---
 
 Today, we are going to discuss and see how to configure the TLS and resolve errors related to this. There are different versions of TLS. 
