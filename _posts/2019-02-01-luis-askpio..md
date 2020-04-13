@@ -3,7 +3,7 @@ layout: post
 title:  "LUIS and askPio"
 author: rinkal
 categories: [ ]
-image: "assets/images/02012019.png"
+image: "assets/images/LUIS.png"
 ---
 To make the conversational interface had been the far sighted goal of the computer technology. Today with the help of LUIS and artificial intelligence this seems to become true for human beings. Making the machines converse with human beings naturally by understanding their language, speech, emotions etc. has become easier now.
 
