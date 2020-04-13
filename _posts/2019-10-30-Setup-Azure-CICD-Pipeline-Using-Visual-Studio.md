@@ -3,7 +3,7 @@ layout: post
 title:  "Setup Azure CI/CD Pipelines using Visual Studio"
 author: harsh
 categories: [ ]
-image: assets/images/10162019/image16.png
+image: assets/images/10162019/pipe.png
 featured: false
 ---
 
