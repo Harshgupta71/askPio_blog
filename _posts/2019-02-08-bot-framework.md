@@ -3,7 +3,7 @@ layout: post
 title:  "Bot Framework"
 author: rinkal
 categories: [ ]
-image: https://content.askpio.com/Images/blog/BF_02082019.jpg
+image: https://content.askpio.com/Images/blog/bot.png
 featured: false
 ---
 
